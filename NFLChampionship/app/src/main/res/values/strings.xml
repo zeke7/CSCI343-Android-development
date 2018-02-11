@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NFL Championship</string>
+    <string name="sel_title">Please select the NFL team:</string>
+    <string name="bt_search">Search Team</string>
+    <string-array name="teams_name">
+        <item>Jacksonville Jaguars</item>
+        <item>New England Patriots</item>
+        <item>Minnesota Vikings</item>
+        <item>Philadelphia Eagles</item>
+    </string-array>
+</resources>

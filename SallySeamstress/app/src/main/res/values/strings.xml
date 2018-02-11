@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Sally Seamstress</string>
+    <string name="title_text">Please input your order($):</string>
+    <string name="size_order">Please select size:</string>
+    <string name="sm_bt">Small</string>
+    <string name="md_bt">Mid</string>
+    <string name="lar_bt">L</string>
+    <string name="xl_bt">XL</string>
+    <string name="material">Please select material:</string>
+    <string name="cotton_name">Cotton (add $50)</string>
+    <string name="Linen_name">Linen (add $75)</string>
+    <string name="Silk_name">Silk (add $150)</string>
+    <string name="Flanel_name">Flanel (add $25)</string>
+    <string name="Polyester_name">Polyester (default – no charge)</string>
+    <string name="pokcet">How many pockets?</string>
+    <string name="order">Order Total: Not available now !</string>
+    <string name="conf">Confirm My Order</string>
+    <string name="default_value">125</string>
+</resources>

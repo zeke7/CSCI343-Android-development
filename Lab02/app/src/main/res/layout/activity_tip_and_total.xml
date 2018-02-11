@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.csci343.lab02.TipAndTotal">
+
+    <TextView
+        android:id="@+id/title_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="@string/title"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+
+    <EditText
+        android:id="@+id/bill-info"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/title_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/title_service"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Spinner
+        android:id="@+id/Services"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:layout_marginTop="40dp"
+        android:entries="@array/Services_Level" />
+
+    <Button
+        android:id="@+id/find_total"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:onClick="onClickFindTotal"
+        android:text="@string/find_total" />
+
+    <TextView
+        android:id="@+id/tips"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:text="@string/tips"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/displayTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:text="@string/total"
+        android:textSize="24sp" />
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyFirstApp</string>
+    <string name="lab01">Tap me!</string>
+    <string name="lab01text">Tap me if you dare!</string>
+</resources>

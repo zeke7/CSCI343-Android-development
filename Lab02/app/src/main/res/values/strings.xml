@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lab02</string>
+    <string name="find_total">Find Total!</string>
+    <string-array name="Services_Level">
+        <item>Poor</item>
+        <item>Good</item>
+        <item>Excellent</item>
+    </string-array>
+    <string name="total">Total bill here !</string>
+    <string name="title">Please enter your bill below:</string>
+    <string name="tips">Tips here !</string>
+    <string name="title_service">Please select the service level:</string>
+</resources>
