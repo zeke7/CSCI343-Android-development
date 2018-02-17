@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Mad libs</string>
+    <string name="wel_text">Welcome to Mad Libs! Please fill some words</string>
+    <string name="start_botton">GET STARTED!</string>
+    <string name="fill_title">Fill in the words to complete the story!</string>
+    <string name="words_left">word(s) left</string>
+    <string name="word_text">type of word</string>
+    <string name="sum_bot">OK</string>
+    <string name="word_suggestion">please type a/an type</string>
+    <string name="story_t">Your Mad Lib Story!</string>
+    <string name="another_story">MAKE ANOTHER STORY</string>
+    <string name="final_story" />
+    <string name="storytitle">Choose stories here:</string>
+    <string name="simple">madlib0_simple</string>
+    <string name="tarzan">madlib1_tarzan</string>
+    <string name="university">madlib2_university</string>
+    <string name="clothes">madlib3_clothes</string>
+    <string name="dance">madlib4_dance</string>
+    <string name="s_selection">OK</string>
+</resources>
